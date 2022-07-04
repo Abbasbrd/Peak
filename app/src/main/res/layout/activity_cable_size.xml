@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CableSizeActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tvSearchCableSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:text="@string/mainCable"
+        android:background="@color/blue"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/searchCableSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:hint="@string/insertCableSize"
+        android:textSize="28sp"
+        android:inputType="number"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        />
+    <ListView
+        android:id="@+id/cableSizelistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        />
+</LinearLayout>

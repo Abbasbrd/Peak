@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post_list_load"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/searchPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:hint="@string/searchPost"
+            android:textSize="28sp"
+            android:inputType="number"
+            android:maxLength="5"
+
+            />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:gravity="center"
+                android:text="@string/post_code"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="@android:color/holo_orange_light"
+                android:textColor="@color/black"
+                android:layout_margin="2dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="R"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/red"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="S"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/yellow"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="T"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/blue"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="N"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/gray"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

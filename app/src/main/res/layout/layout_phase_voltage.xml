@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/reg_Phase_Voltage_div"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:isScrollContainer="true"
+    android:background="@color/gray"
+    android:layout_margin="10dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/editTextgroup_phase_voltage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_marginVertical="15dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1.5"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:id="@+id/txt_phase_voltage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PhaseVoltage"
+                android:background="@color/cardview_shadow_start_color"
+                android:gravity="center"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_RN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/RN"
+                android:background="@color/red"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+            <EditText
+                android:id="@+id/input_RN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:hint="@string/v_220"
+                android:inputType="number"
+                android:maxLength="4"
+                android:imeOptions="actionNext"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_SN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SN"
+                android:background="@color/yellow"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+            <EditText
+                android:id="@+id/input_SN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:hint="@string/v_220"
+                android:inputType="number"
+                android:maxLength="4"
+                android:imeOptions="actionNext"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_TN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/TN"
+                android:background="@color/blue"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+            <EditText
+                android:id="@+id/input_TN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:hint="@string/v_220"
+                android:inputType="number"
+                android:maxLength="4"
+                android:imeOptions="actionNext"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</merge>

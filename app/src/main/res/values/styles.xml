@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="light">
+
+    </style>
+
+    <style name="btn_exit">
+        <item name="android:colorBackground">@color/red</item>
+        <item name="color">@color/red</item>
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+    <style name="btn_next" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/yellow</item>
+        <item name="android:textColor">@color/blue</item>
+
+    </style>
+
+
+    <style name="Theme.myDarkPlanetTheme" parent="android:Theme">
+        <item name="android:textAppearance">@style/MydarkTextAppearance</item>
+    </style>
+    <style name="MydarkTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/dGray</item>
+
+    </style>
+
+</resources>

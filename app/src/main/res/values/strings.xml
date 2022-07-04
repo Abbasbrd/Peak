@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">پیک</string>
+    <string name="share_my_phone">Share my phone</string>
+    <string name="phone_number">Phone number</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="txt_phone_number">Phone Number</string>
+    <string name="r">R</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="n">N</string>
+    <string name="post_load">بار کلیدکل</string>
+    <string name="post_code">کد پست</string>
+    <string name="enter_post_code">کد پست را اينجا وارد کنيد</string>
+    <string name="post_capacity">ظرفيت پست</string>
+    <string name="enter_post_capacity">ظرفيت پست را وارد کنيد</string>
+    <string name="kva">KVA</string>
+    <string name="reg_load">ثبت بارگيري</string>
+    <string name="title_activity_post_list">activity_post_list</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="txt_exit">خروج</string>
+    <string name="next_feeder">افزودن فیدر</string>
+    <string name="set_boolean_false">false</string>
+    <string name="dialog_reg_load_title">ثبت بارگیری</string>
+    <string name="dialog_reg_load_msg">آیا تمایل به ثبت بار فیدرها دارید؟</string>
+    <string name="title_activity_feeder_load">feederLoadActivity</string>
+    <string name="feeder_load">بار فیدر</string>
+    <string name="feeders_load">بار فیدرها</string>
+    <string name="enter_feeders_load">بار فیدرها را وارد کنید</string>
+    <string name="f1">F1</string>
+    <string name="reg_final">ثبت نهایی</string>
+    <string name="title_activity_feeders_load_entery">FeedersLoadEnteryActivity</string>
+    <string name="Exit">خروج</string>
+    <string name="RegNew">ثبت جدید</string>
+    <string name="searchPost">جستجو</string>
+    <string name="load_perc">درصد بار</string>
+    <string name="load_ave">متوسط بار</string>
+    <string name="cap">ظرفیت</string>
+    <string name="Edit">ویرایش</string>
+    <string name="LineVoltage">ولتاژ خط</string>
+    <string name="PhaseVoltage">ولتاژ فاز</string>
+    <string name="TR">T-R</string>
+    <string name="ST">S-T</string>
+    <string name="RS">R-S</string>
+    <string name="RN">R-N</string>
+    <string name="SN">S-N</string>
+    <string name="TN">T-N</string>
+    <string name="v_380">380</string>
+    <string name="v_220">220</string>
+    <string name="title_activity_post_cable_size">PostCableSizeActivity</string>
+    <string name="insertCableSize">سایز کابل را تایپ کنید</string>
+    <string name="mainCable">مقطع کابل ترانس به تابلو</string>
+
+</resources>
